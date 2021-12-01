@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DungeonLibrary;//added 
 
 namespace DungeonApplication
 {
@@ -24,8 +25,7 @@ namespace DungeonApplication
             //TODO 1. Create a Player
 
             //TODO 2. Create a Weapon for the Player
-            // We need to learn about custom classes first
-
+            Weapon sword = new Weapon(1, 8, "Short Swor", 10, false);
             //TODO 3. Add Customization based on player race
 
             //4. Create a loop for the room and monster
