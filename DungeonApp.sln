@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1738
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonApp", "DungeonApp\DungeonApp.csproj", "{AAFE7511-04A9-42F4-B9B6-61B0BF3CAADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonApp", "Projects\03-CSF2\DungeonApp\DungeonApp.csproj", "{403D5E7B-FEDA-44BA-A721-A70A49497489}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AAFE7511-04A9-42F4-B9B6-61B0BF3CAADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAFE7511-04A9-42F4-B9B6-61B0BF3CAADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAFE7511-04A9-42F4-B9B6-61B0BF3CAADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAFE7511-04A9-42F4-B9B6-61B0BF3CAADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403D5E7B-FEDA-44BA-A721-A70A49497489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403D5E7B-FEDA-44BA-A721-A70A49497489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403D5E7B-FEDA-44BA-A721-A70A49497489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403D5E7B-FEDA-44BA-A721-A70A49497489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
