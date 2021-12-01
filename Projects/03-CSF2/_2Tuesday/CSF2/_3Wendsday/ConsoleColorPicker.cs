@@ -31,6 +31,23 @@ namespace _3Wendsday
             Console.WriteLine("Yay, the background is magenta");
 
             Console.ResetColor();
+
+            Console.WriteLine("Pick your text color: Green, Blue, Red, Cyan");
+            string textColor = Console.ReadLine().ToUpper();
+
+            switch (textColor)
+            {
+                case "G":
+                case "GREEN":
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    break;
+
+                case "B":
+                case "BLUE":
+
+                default:
+                    break;
+            }
             #endregion  
         }
     }
