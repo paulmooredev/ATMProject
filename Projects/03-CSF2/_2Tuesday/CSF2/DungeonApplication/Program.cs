@@ -26,6 +26,8 @@ namespace DungeonApplication
 
             //TODO 2. Create a Weapon for the Player
             Weapon sword = new Weapon(1, 8, "Short Swor", 10, false);
+
+            Player player = new Player("Leeroy Jenkins", 70, 5, 40, 40, Race.Elf, sword);
             //TODO 3. Add Customization based on player race
 
             //4. Create a loop for the room and monster
@@ -77,6 +79,8 @@ X) Exit
                         case "P":
                             Console.WriteLine("Player Info:");
                             //TODO 14. Display Player info
+                            Console.WriteLine(player);
+                            Console.WriteLine("Monsters slain " + score);
                             break;
 
                         case "M":

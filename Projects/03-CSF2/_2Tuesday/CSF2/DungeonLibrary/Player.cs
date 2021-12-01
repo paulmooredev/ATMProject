@@ -47,14 +47,60 @@ namespace DungeonLibrary
             CharacterRace = characterRace;
             EquippedWeapon = equippedWeapon;
             Block = block;
-            //money / methods
+        }
+        //bonus: customize a prop based off of race
 
+        //end FQ CTOR
 
+        //money / methods
+
+        public override string ToString()
+        {
+            string description = "";
+
+            switch (CharacterRace)
+            {
+                case Race.Dwarf:
+                    description = "Dwarf";
+                    break;
+                case Race.Elf:
+                    description = "Elf";
+                    break;
+                case Race.Orc:
+                    description = "Orc";
+                    break;
+                case Race.Gnomes:
+                    description = "Gnomes";
+                    break;
+                case Race.Human:
+                    description = "Human";
+                    break;
+                case Race.Furīzashuzoku:
+                    description = "Furīzashuzoku";
+                    break;
+                case Race.Shade:
+                    description = "Shade";
+                    break;
+                case Race.Tiefling:
+                    description = "Tiefling";
+                    break;
+                case Race.Kajhit:
+                    description = "Kajhit";
+                    break;
+            }
+
+            return $"-=-= {Name} =-=-\n" +
+            $"Life: {Life} / {MaxLife}\n" +
+            $"HitChance: {HitChance}\n" +
+            $"Weapon:\n{EquippedWeapon}\n" +
+            $"Block: {Block}\n" +
+            $"Description: {description}";
+
+            //end ToString() override
 
 
 
 
         }
-    }//end class
-}//end namespace
-
+    }
+}
