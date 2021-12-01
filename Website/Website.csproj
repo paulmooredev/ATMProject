@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="circuit.html" />
+    <Content Include="funstuff.html" />
+    <Content Include="index.html" />
+    <Content Include="links.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

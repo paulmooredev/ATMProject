@@ -1,0 +1,63 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <title></title>
+    <!-- Libraries-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b2f47389f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+    <header class="mt-2">
+        <nav>
+            <h1 class="cent pb-2">Matthew Hopson</h1>
+            <div class="d-flex justify-content-center pb-2"><a class="align-middle pl-4" href="about.html">About</a><a class="align-middle pl-4" href="index.html">Projects</a><a class="align-middle pl-4" href="links.html">Sites </a><a class="align-middle pl-4" href="fun.html">Fun</a></div>
+        </nav>
+    </header>
+</body>
+<script src="assets/js/Renderer.js"></script>
+<script src="assets/js/Circuit/Constants.js"></script>
+<script src="assets/js/Circuit/Board.js"></script>
+<script src="assets/js/Circuit/Component.js"></script>
+<script src="assets/js/Circuit/Tools.js"></script>
+<script src="assets/js/Circuit/App.js"></script>
+<main>
+    <h2 class="cent">Circuit Editor </h2>
+    <p>Simple circuit editor designed to create mini diagrams for the Node MCU microcontroller cause I was unfond of exsiting solutions </p>
+</main>
+<div class="fun-content">
+    <form>
+        <div class="row">
+            <label for="colour">Colour</label>
+            <input class="m-1" type="color" id="colour" name="colour" value="#FF00FF" />
+            <button class="btn btn-info m-1" type="button" id="resistor">Resistor</button>
+            <button class="btn btn-info m-1" type="button" id="wire">Wire</button>
+            <button class="btn btn-info m-1" type="button" id="erase">Erase</button>
+            <button class="btn btn-info m-1" type="button" id="led">LED</button>
+            <button class="btn btn-info m-1" type="button" id="button">Button</button>
+        </div>
+    </form>
+    <canvas id="circuitcanvas"></canvas>
+</div>
+<footer>
+    <div class="d-flex justify-content-center pt-3">
+        <p>Find me elsewhere...</p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="https://github.com/Hopson97" target="_blank">
+            <div class="fab fa-github fa-2x"></div>
+        </a><a href="https://www.youtube.com/c/hopsonn" target="_blank">
+            <div class="fab fa-youtube fa-2x"> </div>
+        </a><a href="https://twitter.com/hopson1997" target="_blank">
+            <div class="fab fa-twitter fa-2x"> </div>
+        </a><a href="https://www.patreon.com/Hopson" target="_blank">
+            <div class="fab fa-patreon fa-2x"> </div>
+        </a>
+    </div>
+</footer>
+</html>
